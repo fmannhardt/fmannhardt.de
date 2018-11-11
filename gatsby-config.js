@@ -2,6 +2,7 @@ const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     url: 'https://fmannhardt.de',
     title: 'Felix Mannhardt',
