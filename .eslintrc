@@ -11,6 +11,7 @@
       "as-needed",
       { "requireReturnForObjectLiteral": true }
     ],
+    "linebreak-style": "off",
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
     "function-paren-newline": "off",

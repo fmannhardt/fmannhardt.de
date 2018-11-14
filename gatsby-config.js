@@ -2,13 +2,13 @@ const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
-  pathPrefix: `/blog`,
+  pathPrefix: '/blog',
   siteMetadata: {
     url: 'https://fmannhardt.de',
     title: 'Felix Mannhardt',
     subtitle:
       'Process mining & more',
-    copyright: '',
+    copyright: 'CC BY-SA 4.0',
     impressum: {
       label: 'Impressum',
       path: '/impressum',
@@ -18,18 +18,18 @@ module.exports = {
       {
         label: 'Blog',
         path: '/',
-        submenu: []
+        submenu: [],
       },
       {
         label: 'About me',
         path: '/about/',
-        submenu: []
+        submenu: [],
       },
       {
         label: 'PhD thesis',
         path: '/thesis/',
-        submenu: []
-      },  
+        submenu: [],
+      },
       {
         label: 'Software',
         path: '/software/',
@@ -42,22 +42,22 @@ module.exports = {
             label: 'ProM',
             path: '/software/prom',
           },
-        ]
-      }, 
+        ],
+      },
       {
         label: 'Publications',
         path: '/publications/',
-        submenu: []
+        submenu: [],
       },
       {
         label: 'Presentations',
         path: '/presentations/',
-        submenu: []
-      },      
+        submenu: [],
+      },
       {
         label: 'Contact me',
         path: '/contact/',
-        submenu: []
+        submenu: [],
       },
     ],
     author: {
@@ -78,7 +78,7 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-feed',
-      options: {
+      options: {        
         query: `
           {
             site {
@@ -86,22 +86,24 @@ module.exports = {
                 site_url: url
                 title
                 description: subtitle
+                copyright
               }
             }
           }
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) =>
-              allMarkdownRemark.edges.map(edge =>
-                Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.description,
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.site_url + edge.node.fields.slug,
-                  guid: site.siteMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
-              ),
+            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map(edge => Object.assign({},
+              edge.node.frontmatter, {
+                description: edge.node.frontmatter.description,
+                date: edge.node.frontmatter.date,
+                author: 'Felix Mannhardt',
+                categories: edge.node.frontmatter.tags,
+                url: site.siteMetadata.site_url + edge.node.fields.slug,
+                guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [{ 'content:encoded': edge.node.html }],
+              })
+            ),
             query: `
               {
                 allMarkdownRemark(
@@ -119,6 +121,7 @@ module.exports = {
                         date
                         layout
                         draft
+                        tags
                         description
                       }
                     }
@@ -150,7 +153,7 @@ module.exports = {
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           'gatsby-remark-katex',
-          'gatsby-remark-emojis'         
+          'gatsby-remark-emojis',
         ],
       },
     },
@@ -185,19 +188,18 @@ module.exports = {
               }
           }`,
         output: '/sitemap.xml',
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            return {
-              url: site.siteMetadata.url + edge.node.path,
-              changefreq: 'daily',
-              priority: 0.7,
-            }
-          }),
+        serialize: ({ site, allSitePage }) => allSitePage.edges.map(edge => {
+          return {
+            url: site.siteMetadata.url + edge.node.path,
+            changefreq: 'daily',
+            priority: 0.7,
+          }
+        }),
       },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet',    
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
