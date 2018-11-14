@@ -4,6 +4,8 @@ layout: page
 path: "/presentations"
 ---
 
+A selection of publicly available slides of conference presentation that I have given.
+
 ## CAiSE 2017, Essen, Germany
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/MMc9ComeubY84G" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>

@@ -4,9 +4,10 @@ layout: page
 path: "/thesis"
 ---
 
-![PhD thesis -- Multi-perspective Process Mining](./mannhardt-cover-front.png)  
+I defended my PhD thesis [**Multi-perspective Process Mining**](https://research.tue.nl/en/publications/multi-perspective-process-mining) on the 7th February 2018. 
+The thesis provides in-depth information on several Process Mining techniques that deal with situations in which multiple process perspectives (control-flow, data, resource, time, etc.) are intertwined and considered together. 
 
-My thesis [**Multi-perspective Process Mining**](https://research.tue.nl/en/publications/multi-perspective-process-mining) was defned on 7th February 2018. It provides in-depth information on about several Process Mining techniques that deal with situations in which multiple process perspectives (control-flow, data, resource, time, etc.) are intertwined and considered together. 
+![PhD thesis -- Multi-perspective Process Mining](./mannhardt-cover-front.png)  
 
 ## Extended Abstract
 
