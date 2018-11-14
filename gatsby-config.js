@@ -65,7 +65,7 @@ module.exports = {
       email: 'mail@fmannhardt.de',
       twitter: 'fmannhardt',
       github: 'fmannhardt',
-      rss: '/rss.xml',
+      rss: '/blog/rss.xml',
     },
   },
   plugins: [
@@ -129,7 +129,7 @@ module.exports = {
                 }
               }
             `,
-            output: '/blog/rss.xml',
+            output: 'rss.xml',
           },
         ],
       },
