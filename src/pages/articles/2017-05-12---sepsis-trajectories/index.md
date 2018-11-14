@@ -9,6 +9,7 @@ tags:
   - "Paper"
   - "BPMDS Conference"
   - "CAiSE Conference"
+  - "Process Mining"  
 description: "Sepsis cases event log and paper at BPMDS."
 ---
 
@@ -20,7 +21,8 @@ Sepsis Cases - Event Log. Eindhoven University of Technology. Dataset.
 http://dx.doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460
 ```
 
-The event log is based on several months of work that I carried out together with a regional hospital in The Netherlands. I hope that this event log will be useful for other process-mining researchers to validate/challenge their methods. 
+The event log is based on several months of work that I carried out together with a regional hospital in The Netherlands. 
+I hope that this event log will be useful for other process-mining researchers to validate/challenge their methods. 
 
 Since it is always nice to have some more background on the case, I wrote a lesson-learned paper for the BPMDS workshop together with Daan Blinde, who helped with the project. The paper is due to appear in the BPMDS’2017 RADAR proceedings:
 

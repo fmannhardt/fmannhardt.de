@@ -8,6 +8,7 @@ category: "Software"
 tags:
   - "XES"
   - "ProM"
+  - "Process Mining"
 description: "Recently, I wanted to apply some plug-ins of the Process Mining tool-set ProM on a real-life event log that contained a bit more attributes than the usual concept:name and time:timestamp for each event. This event log contained 155,000 cases and about 1.2 million events, each with 30 attributes. Definitely this is not a small event log, but it is also far away from being Big Data. The compressed XES file just takes about 17 MB of disk space."
 ---
 

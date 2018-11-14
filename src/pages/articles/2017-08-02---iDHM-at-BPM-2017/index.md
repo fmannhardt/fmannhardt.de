@@ -9,6 +9,7 @@ tags:
   - "Paper"
   - "BPM Conference"
   - "Software"
+  - "Process Mining"  
 description: "Our demo paper Heuristic Mining Revamped: An Interactive, Data-aware, and Conformance-aware Miner was accepted for presentation at the BPM 2017 conference."
 ---
 

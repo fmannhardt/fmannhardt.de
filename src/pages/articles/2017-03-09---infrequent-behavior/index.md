@@ -9,6 +9,7 @@ tags:
   - "Paper"
   - "CAiSE Conference"
   - "ProM"
+  - "Process Mining"
 description: "Our paper Data-driven Process Discovery - Revealing Conditional Infrequent Behavior from Event Logs (preprint) has been accepted for presentation at the CAiSE 2017 conference in Essen."
 ---
 

@@ -10,7 +10,8 @@ tags:
   - "Poster"
   - "BPMDS Conference"
   - "CAiSE Conference"
-description: "I just presented two poster versions of short papers at the BPMDS conference which is co-located with the CAiSE conference in Essen."
+  - "Process Mining"  
+description: "Two posters of short papers presented at the BPMDS conference, which is co-located with the CAiSE conference in Essen."
 ---
 
 I just presented two poster versions of short papers at the <a href="http://www.bpmds.org">BPMDS conference</a>, which is co-located with the CAiSE conference in Essen. The two posters are available for download below. 
