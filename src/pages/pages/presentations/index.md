@@ -4,6 +4,11 @@ layout: page
 path: "/presentations"
 ---
 
+## Seminars & Lectures
+
+
+## Conference presentations
+
 A selection of publicly available slides of conference presentation that I have given.
 
 ## CAiSE 2017, Essen, Germany
