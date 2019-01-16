@@ -4,9 +4,11 @@ layout: page
 path: "/about"
 ---
 
+Hi, I am researching and applying Process Mining in various settings and in conjunction with other Data Science and Machine Learning methods. I am particularly interested in connecting low-level events to business activities and in researching trust and privacy aspects of Process Mining.
+
 ## Forsker -- SINTEF
 
-I am working as Research Scientist (or Forsker) at the [Department of Technology Management](https://www.sintef.no/en/technology-and-society/industrial_management/) of [SINTEF Digital](https://www.sintef.no/en/digital/) in beautiful Trondheim, Norway.
+I am working as Research Scientist (Forsker) at the [Department of Technology Management](https://www.sintef.no/en/technology-and-society/industrial_management/) of [SINTEF Digital](https://www.sintef.no/en/digital/) in beautiful Trondheim, Norway.
 
 ![View from Teisendammen](Trondheim2015-04809.jpg)
 

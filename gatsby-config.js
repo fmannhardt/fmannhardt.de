@@ -7,7 +7,7 @@ module.exports = {
     url: 'https://fmannhardt.de',
     title: 'Felix Mannhardt',
     subtitle:
-      'Process mining & more',
+      'Process Mining Researcher',
     copyright: 'CC BY-SA 4.0',
     impressum: {
       label: 'Impressum',

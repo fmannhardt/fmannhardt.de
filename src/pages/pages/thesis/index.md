@@ -14,11 +14,9 @@ If you just want to get an overview, an [extended abstract](http://ceur-ws.org/V
 
 ## Technical Content
 
-Of course, I am biased, but I think that despite its length (*425 pages*) it serves as nice introduction to **Multi-perspective Conformance Checking** (Chapter 4 and 5). Of course there are much more topics covered, such as Chapter 8 on **Data-aware Heuristics Process Discovery** in which the well-known *Heuristics Miner* algorithm is extended with an approach to detect data-dependent behavior and Chapter 9 on *Guided Process Discovery* in which existing process discovery methods can be improved by using multi-perspective activity patterns to raise the abstraction level of the event log. The thesis chapters are fairly independent from each other.
+I am biased, of course, but I think that despite its length (*425 pages*) it serves as nice introduction to **Multi-perspective Conformance Checking** (Chapter 4 and 5). Of course there are much more topics covered, such as Chapter 8 on **Data-aware Heuristics Process Discovery** in which the well-known *Heuristics Miner* algorithm is extended with an approach to detect data-dependent behavior and Chapter 9 on *Guided Process Discovery* in which existing process discovery methods can be improved by using multi-perspective activity patterns to raise the abstraction level of the event log. The thesis chapters are fairly independent from each other.
 
 ## Tools
-
-I like to actually realize my ideas as working software. I take pride in going the extra mile to make software that is actually usable and can be built upon by other people. 
 
 ### Multi-perspective Process Explorer (MPE)
 
