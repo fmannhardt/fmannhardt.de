@@ -4,6 +4,7 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   pathPrefix: '/blog',
   siteMetadata: {
+    siteUrl: 'https://fmannhardt.de',
     url: 'https://fmannhardt.de',
     title: 'Felix Mannhardt',
     subtitle:
@@ -172,6 +173,7 @@ module.exports = {
             {
               site {
                 siteMetadata {
+                  siteUrl,
                   url
                 }
               }
