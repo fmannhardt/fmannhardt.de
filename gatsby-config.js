@@ -85,7 +85,7 @@ module.exports = {
             site {
               siteMetadata {
                 site_url: url
-                title
+                title: title
                 description: subtitle
                 copyright
               }
