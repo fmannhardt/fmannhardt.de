@@ -79,13 +79,13 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-feed',
-      options: {
+      options: {        
         query: `
           {
             site {
               siteMetadata {
-                url
-                title
+                site_url: url
+                title: title
                 description: subtitle
                 copyright
               }
@@ -131,6 +131,7 @@ module.exports = {
               }
             `,
             output: 'rss.xml',
+            title: 'fmannhardt.de',
           },
         ],
       },
