@@ -79,13 +79,13 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-feed',
-      options: {        
+      options: {
         query: `
           {
             site {
               siteMetadata {
-                site_url: url
-                title: title
+                url
+                title
                 description: subtitle
                 copyright
               }
