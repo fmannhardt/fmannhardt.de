@@ -24,12 +24,16 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-        submenu: [],
-      },
-      {
-        label: 'PhD thesis',
-        path: '/thesis/',
-        submenu: [],
+        submenu: [
+          {
+            label: 'Work',
+            path: '/about/work',
+          },
+          {
+            label: 'PhD',
+            path: '/about/phd',
+          },
+        ],
       },
       {
         label: 'Software',

@@ -1,5 +1,5 @@
 ---
-title: "Tools & Software — bupaR"
+title: "Software — bupaR"
 layout: page
 path: "/software/bupar"
 ---
@@ -8,9 +8,6 @@ path: "/software/bupar"
 
 I contribute to the [bupaR](https://www.bupar.net/) collection of Process Mining related R packages:
 
-* [bupaR](https://www.bupar.net/)
-* [processanimateR](https://fmannhardt.github.io/processanimateR/). I created and maintain the 'processanimateR' package. This package provides a highly configurable and embeddable token replay animations on top of a bupaR process map.
-* [heuristicsmineR](https://fmannhardt.github.io/heuristicsmineR/). I created and maintain the 'heuristicsmineR' package. This package provides an R implementation of the Heuristics Miner and several of its variants.
-* [pm4py](https://fmannhardt.github.io/heuristicsmineR/). I created and maintain the R package 'pm4py'. This package provide a bridge between the Python framework PM4Py and bupaR making it possible to call PM4Py method directly from R.
-
-![](processanimateR-banner.png)
+* [processanimateR](https://github.com/bupaverse/processanimateR). I created and maintain the 'processanimateR' package. This package provides a highly configurable and embeddable SVG token replay animations on top of a bupaR process map. ![](processanimateR-banner.png)
+* [heuristicsmineR](https://github.com/bupaverse/heuristicsmineR). I created and maintain the 'heuristicsmineR' package. This package provides an efficient R implementation of the Heuristics Miner and several of its variants. ![](https://github.com/bupaverse/heuristicsmineR/raw/master/man/figures/L_heur_1_example.png)
+* [pm4py](https://github.com/bupaverse/pm4py). I created and maintain the R package 'pm4py'. This package provide a bridge between the Python framework [PM4Py](https://github.com/pm4py) and bupaR, which makes it possible to call PM4Py methods directly from R by using the [reticulate](https://github.com/rstudio/reticulate) package.
