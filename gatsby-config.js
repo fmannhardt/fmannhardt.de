@@ -26,17 +26,35 @@ module.exports = {
         path: '/about/',
         submenu: [
           {
-            label: 'Work',
+            label: 'Work experience',
             path: '/about/work',
           },
           {
-            label: 'PhD',
+            label: 'PhD thesis',
             path: '/about/phd',
           },
+          {
+            label: 'Personal',
+            path: '/about/personal',
+          }
         ],
       },
       {
-        label: 'Software',
+        label: 'My research',
+        path: '/research/',
+        submenu: [
+          {
+            label: 'Publications',
+            path: '/research/publications',
+          },
+          {
+            label: 'Presentations',
+            path: '/research/presentations',
+          }
+        ],
+      },
+      {
+        label: 'Open source development',
         path: '/software/',
         submenu: [
           {
@@ -48,26 +66,16 @@ module.exports = {
             path: '/software/prom',
           },
         ],
-      },
+      },      
       {
-        label: 'Publications',
-        path: '/publications/',
-        submenu: [],
-      },
-      {
-        label: 'Presentations',
-        path: '/presentations/',
-        submenu: [],
-      },
-      {
-        label: 'Contact me',
+        label: 'Contact',
         path: '/contact/',
         submenu: [],
       },
     ],
     author: {
       name: 'Felix Mannhardt',
-      email: 'mail@fmannhardt.de',
+      email: 'f.mannhardt@tue.nl',
       twitter: 'fmannhardt',
       github: 'fmannhardt',
       rss: '/blog/rss.xml',
@@ -169,39 +177,6 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: ['Source Sans Pro:400,400i,500,700'],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        query: `
-            {
-              site {
-                siteMetadata {
-                  siteUrl,
-                  url
-                }
-              }
-              allSitePage(
-                filter: {
-                  path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
-                }
-              ) {
-                edges {
-                  node {
-                    path
-                  }
-                }
-              }
-          }`,
-        output: '/sitemap.xml',
-        serialize: ({ site, allSitePage }) => allSitePage.edges.map(edge => {
-          return {
-            url: site.siteMetadata.url + edge.node.path,
-            changefreq: 'daily',
-            priority: 0.7,
-          }
-        }),
       },
     },
     'gatsby-plugin-offline',

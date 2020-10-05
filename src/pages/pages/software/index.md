@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "Open source"
 layout: page
 path: "/software"
 ---

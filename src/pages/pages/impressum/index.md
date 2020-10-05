@@ -4,16 +4,10 @@ layout: page
 path: "/impressum"
 ---
 
-Felix Mannhardt  
-Smedstuveien 19  
-7040 Trondheim  
-Norway  
-
-phone: +47 401 06 958  
-e-mail: mail (at) fmannhardt (dot) de
+phone: +31 40 247 3425
+e-mail: f (dot) mannhardt (at) tue (dot) nl
 
 Verantwortlich für den Inhalt (gem. § 55 Abs. 2 RStV):  
-Felix Mannhardt  
-Smedstuveien 19  
-7040 Trondheim  
-Norway
+Felix Mannhardt
+PO Box 513
+5600 MB Eindhoven

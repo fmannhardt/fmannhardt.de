@@ -1,7 +1,7 @@
 ---
-title: "Presentations"
+title: "Research — Presentations"
 layout: page
-path: "/presentations"
+path: "/research/presentations"
 ---
 
 ## Seminars & Lectures

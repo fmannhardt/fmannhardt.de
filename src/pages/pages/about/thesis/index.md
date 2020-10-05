@@ -1,5 +1,5 @@
 ---
-title: "About — PhD (Multi-perspective Process Mining)"
+title: "About — PhD thesis"
 layout: page
 path: "/about/phd"
 ---
