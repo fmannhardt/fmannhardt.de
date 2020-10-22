@@ -3,7 +3,7 @@ title: bupaR received the Best Academic Tool Award at ICPM 2020
 date: "2020-10-22T10:30:00.000Z"
 layout: post
 draft: false
-path: "/posts/starting-at-tu-eindhoven/"
+path: "/posts/2020-10-22--bupar_best_demo_award/"
 category: "Award"
 tags:
   - "Award"  
