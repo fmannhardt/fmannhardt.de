@@ -32,10 +32,6 @@ module.exports = {
           {
             label: 'PhD thesis',
             path: '/about/phd',
-          },
-          {
-            label: 'Personal',
-            path: '/about/personal',
           }
         ],
       },
@@ -54,7 +50,7 @@ module.exports = {
         ],
       },
       {
-        label: 'Open source development',
+        label: 'Software',
         path: '/software/',
         submenu: [
           {

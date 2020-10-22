@@ -28,6 +28,8 @@ I co-founded [KIT-AR](https://www.kit-ar.com/), a spin-off company building an i
 
 I was appointed as a [part-time Associate Professor](https://www.ntnu.edu/employees/felix.mannhardt) (Førsteamanuensis II) in Process Analytics and Process Mining at the Department of Computer Science of the NTNU University in Trondheim from 2019 to 2020.
 
+![Trondheimsfjorden by Night](Nordlys_Trondheimsfjorden.jpg)
+
 ### Forsker -- SINTEF
 
 I was working as Research Scientist (Forsker) at the [Department of Technology Management](https://www.sintef.no/en/technology-and-society/industrial_management/) of [SINTEF Digital](https://www.sintef.no/en/digital/) in beautiful Trondheim, Norway from 2017 to 2020.
