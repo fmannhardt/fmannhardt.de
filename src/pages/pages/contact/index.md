@@ -4,14 +4,13 @@ layout: page
 path: "/contact"
 ---
 
-_This is a personal website and opinions are my own and not the views of my employer._
+_This is a personal website and any opinion expressed is my own and not the view of my employer._
 
-[Felix Mannhardt](https://www.sintef.no/en/all-employees/employee/?empId=5958)  
-Research Scientist  
-Department of Technology Management   
-SINTEF Digital
+[Felix Mannhardt](https://www.tue.nl/staff/f.mannhardt)  
+Assistant Professor
+Department of Mathematics and Computer Science   
+Eindhoven University of Technology
 
-Phone: +47 401 06 958   
-Work e-mail: felix mannhardt (at) sintef (dot) no  
-Personal e-mail: mail (at) fmannhardt (dot) de  
-
+Work phone: +31 40 247 3425 
+Work e-mail: f (dot) mannhardt (at) tue (dot) nl  
+Personal e-mail: mail (at) fmannhardt (dot) de

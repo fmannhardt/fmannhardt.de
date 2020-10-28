@@ -10,7 +10,7 @@ tags:
   - "bupaR"
   - "ICPM"
   - "TU Eindhoven"  
-description: "In September I started as Assistant Professor in the Process Analytics group of TU Eindhoven"
+description: "BupaR wins the Best Demo Award at ICPM 2020 ..."
 ---
 
 ![ICPM 2020 Demo Award for bupaR](ICPM-Demo-2020-award.png)
