@@ -3,4 +3,4 @@ set -x
 
 gatsby build --prefix-paths
 
-rsync -r --delete-after --quiet --exclude=/.ssh $TRAVIS_BUILD_DIR/public/ blog.fmannhardt.de@hwmails.de:~/ 
+rsync -r --delete-after --quiet --exclude=/.ssh $TRAVIS_BUILD_DIR/public/ webspace@marvin.mannhardt.net:~/f.mannhardt.net/ 
