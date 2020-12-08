@@ -4,11 +4,11 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   pathPrefix: '/blog',
   siteMetadata: {
-    siteUrl: 'https://fmannhardt.de',
-    url: 'https://fmannhardt.de',
+    siteUrl: 'https://f.mannhardt.net',
+    url: 'https://f.mannhardt.net',
     title: 'Felix Mannhardt',
     subtitle:
-      'Process Mining Researcher',
+      'Assistant Professor in Process Mining',
     copyright: 'CC BY-SA 4.0',
     impressum: {
       label: 'Impressum',
